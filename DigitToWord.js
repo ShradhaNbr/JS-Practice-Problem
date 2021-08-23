@@ -1,37 +1,37 @@
 //To take single digit number and write number in word
 const prompt = require('prompt-sync')();
-const digit = prompt('Enter a number between 0 to 9: ');
+
+ const number = prompt('Enter a number between 0 to 9: ');
  
- if ( digit == 0 ) {
+ if ( number == 0 ) 
      console.log("Zero");
- }
- else if ( digit == 1 ) {
+    
+else if ( number == 1 ) 
      console.log("One");
- }
- else if ( digit == 2 ) {
+ 
+ else if ( number == 2 ) 
      console.log("Two");
- }
- else if ( digit == 3 ) {
+ 
+ else if ( number == 3 ) 
      console.log("Three");
- }
- else if ( digit == 4 ) {
+ 
+ else if ( number == 4 ) 
      console.log("Four");
- }
- else if ( digit == 5 ) {
+ 
+ else if ( number == 5 ) 
      console.log("Five");
- }
- else if ( digit == 6 ) {
+ 
+ else if ( number == 6 ) 
      console.log("Six");
- }
- else if ( digit == 7 ) {
+ 
+ else if ( number == 7 ) 
      console.log("Seven");
- }
- else if ( digit == 8 ) {
+
+ else if ( number == 8 ) 
      console.log("Eight");
- }
- else if ( digit == 9 ) {
+
+ else if ( number == 9 ) 
      console.log("Nine");
- }
- else {
-     console.log("Please enter a single digit number ");
- }
+ 
+ else 
+     console.log("Please enter a valid number");
