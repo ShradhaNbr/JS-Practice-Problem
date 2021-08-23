@@ -15,7 +15,7 @@ let converted_breadth = breadth/3.8;
 
 console.log("Converted length and breadth is: " + converted_length + "m and " + converted_breadth + "m" )
 
-// Calculating area of 25 rectangular plots in acres.
+// Calculating area of 25 rectangular plots in acres
 let calculated_area = length * breadth;
 console.log("Area in feet is: "+calculated_area)
 
