@@ -7,7 +7,7 @@ const prompt = require('prompt-sync')();
 
     const digit = prompt("Enter the number ");                            
     
-    switch(Number(number)) {
+    switch(number) {
         case 1: 
             let feet_to_inch = Number(digit) * 12;
             console.log("Feet to Inch: " +feet_to_inch);
