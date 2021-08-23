@@ -1,5 +1,5 @@
-"use strict";
-const prompt = require("prompt-sync")({sigint: true});
+//Code for unit conversions
+const prompt = require('prompt-sync')({sigint: true});
 
 // Converting  inch to feet.
 const inch = prompt("Enter a number in inch: ");
@@ -15,7 +15,7 @@ let converted_breadth = breadth/3.8;
 
 console.log("Converted length and breadth is: " + converted_length + "m and " + converted_breadth + "m" )
 
-// Calculating area of 25 rctangular plots in acres.
+// Calculating area of 25 rectangular plots in acres.
 let calculated_area = length * breadth;
 console.log("Area in feet is: "+calculated_area)
 
