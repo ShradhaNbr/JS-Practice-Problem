@@ -1,7 +1,7 @@
 // Program to 1, 10, 100, 1000, etc and display unit, ten, hundred,... using switch statement
 const prompt = require('prompt-sync')();
 
- const number = prompt('Enter a number ');
+ const number = prompt('Enter a number');
  
  switch(number) {
      case 1:
