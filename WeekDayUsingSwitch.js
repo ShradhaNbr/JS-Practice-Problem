@@ -1,7 +1,7 @@
 //Program to find the week day using switch statement
 const prompt = require('prompt-sync')();
 
- const number = prompt('Enter a number between 1 to 7: ');
+ const number = prompt('Enter a number between 1 to 7:');
  
  switch(number) {
      case 1:
