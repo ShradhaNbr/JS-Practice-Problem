@@ -3,7 +3,7 @@ const prompt = require('prompt-sync')();
 
 const number = prompt('Enter a number between 0 to 9: ');
 
-switch(Number(number)) {
+switch(number) {
     case 0:
         console.log("Zero");
         break;
