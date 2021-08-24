@@ -3,7 +3,7 @@ const prompt = require('prompt-sync')();
 
  const number = prompt('Enter a number between 1 to 7: ');
  
- switch(Number(number)) {
+ switch(number) {
      case 1:
          console.log("Sunday");
          break;
