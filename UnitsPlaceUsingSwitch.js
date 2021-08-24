@@ -3,7 +3,7 @@ const prompt = require('prompt-sync')();
 
  const number = prompt('Enter a number ');
  
- switch(Number(number)) {
+ switch(number) {
      case 1:
          console.log("Units");
          break;
